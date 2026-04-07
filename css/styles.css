@@ -1,6 +1,66 @@
 
+.container {
+    width: 1000px;
+}
+
+.h-30{
+    height: 30px;
+}
+
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.row1{
+    background: yellow;
+}
+
+.row2{
+    background: tomato;
+}
+.row2 div{
+    width: 333.33px;
+    float: left;
+}
+
+.row3{
+    background-color: aqua;
+}
+
+.row3 div{
+    width: 500px;
+    float: left;
+}
+
+.row4{
+    background-color: lightgreen;
+}
+
+.row4 div{
+    width: 333.33px;
+    float: left;
+}
+
+.row5{
+    background-color: lightpink;
+}
+
+.row5 div{
+    width: 500px;
+    float: left;
+}
+
+.row6{
+    background-color: lightgray;
+}
+
+.row6 div{
+    width: 250px;
+    float: left;
+}
+
+.row7{
+    background-color: lightblue;
 }
